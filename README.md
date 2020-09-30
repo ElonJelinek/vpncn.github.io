@@ -1,6 +1,6 @@
-# 翻墙软件VPN推荐指南(含2020优惠)
+# 翻墙软件VPN推荐，稳定好用(含2020优惠)
 
-最近更新：`2020年9月12日`
+最近更新：`2020年9月24日`
 
 >翻墙（科学上网）重不重要？不会翻墙回不了Gmail邮件，不能Google找程序代码，不翻墙能不能看YouTube视频？Udemy买的课程能不能看的舒服？HBO、Netflix能不能追剧？我想大家都知道，不然你也不会来到这里了。我在国内针对中国国际互联网用户的翻墙软件进行测试和评价，并长期关注VPN、SSR、WireGuard、V2Ray、蓝灯等翻墙和信息安全技术，为读者推荐在国内最好用、稳定和安全的科学上网方法和工具。
 
@@ -12,11 +12,13 @@
 
 **重要提示**：在选择或者使用某款VPN的时候，**一定要把本文中与对应这款VPN相关的使用信息看完**，因为涉及到安装和使用过程中的线路选择问题，不然可能会导致使用不便。
 
->其实就2020年的今天来看，VPN加密翻墙依然是最适合国人的主流安全科学上网工具，同样也是我重点关注和测试的。**如果你不想多磨叽，想快速、直接选择一款VPN就能安全翻墙，我建议选择**：
+>其实就2020年的今天来看，VPN加密翻墙依然是最适合小白的主流安全科学上网工具，同样也是我长期关注和测试的。**如果你不想多磨叽，想快速、直接选择一款VPN就能安全翻墙，我建议选择下列任意一款**：
 >
-> - [StrongVPN](#1-strongvpn--性价比最佳)，这款我已经使用了1年多，性价比不错。总体来讲，在过去的使用时间里，全年可用率基本能达到95%左右，服务器经常会更新，每次登陆客户端都会自动检测服务器更新。**在国内的用户可以下载StrongVPN精简版(下载链接在下文)，登录和连接更为顺畅**。目前有打折的优惠券可以使用，遗憾的是Strong官网在中国被墙（软件APP能正常使用），有梯子的同学可以用梯子访问，[国内打开StrongVPN官网](#如何打开strongvpn官网)需要改电脑Host文件，因为官网DNS在天朝被定位到不能访问的IP，需要修改本地的DNS才能访问。
+> - [StrongVPN](#1-strongvpn--性价比最佳)，这款我已经使用了1年多，性价比不错。总体来讲，在过去的使用时间里，全年可用率基本能达到95%左右，服务器经常会更新，每次登陆客户端都会自动检测服务器更新。支持Wireguard协议，在手机上使用可以实现秒连。**在国内的Windows用户可以下载StrongVPN精简版(下载链接在下文)，登录和连接更为顺畅**。目前有打折的优惠券可以使用，遗憾的是Strong官网域名在中国被墙（软件APP能正常使用），有梯子的同学可以用梯子访问，[国内的本地网络打开StrongVPN官网](#如何打开strongvpn官网)需要改电脑Host文件，因为官网DNS在天朝被定位到不能访问的IP，需要修改本地的DNS才能访问。
 
 > - <a rel="nofollow noopener" href="https://www.fastvpncn.com/expressvpn" target="_blank">ExpressVPN</a>，在国内速度体验最好，也是我自己很喜欢的VPN产品。设备支持最全面，已经运营了12年（至2020年），国内外口碑都很好，我相信你不是第一次听到它，事实上国内外几乎所有VPN测评网站上都在C位推荐它。安全性方面它也是行业中最好的之一，官方称为“军事级别”的加密算法，保护用户的上网信息的安全。它在中国使用不能称得上非常完美，但能保障在中国每年95%以上（我的使用体验）的可用率，速度也是我所使用和测试所有的VPN中最快的之一。
+
+> <a rel="nofollow noopener" href="https://linkv.org/hostwinds/" target="_blank">HostWinds VPS服务器</a>，如果打算自己用**便宜的VPS搭建机场**，首先你要确保能自己应对使用VPS时可能出现的问题；其次，**热门的<a rel="nofollow noopener" href="https://linkv.org/bandwagon/" target="_blank">搬瓦工BandWagonHost</a>、Vultr和DO几个国人扎堆的机房不建议使用**，因为IP被墙的太严重，很可能刚开的VPS的IP就是不能用的。**目前<a rel="nofollow noopener" href="https://linkv.org/hostwinds/" target="_blank">HostWinds</a>是个不错的替代选择**，没有很多国人扎堆，IP基本为全新，便宜流量大，可月付、可支付宝，基础计划每月$4.49，1核1GB内存30GB磁盘，1Gbps带宽，每月1TB流量，优先选择美国西海岸Seattle机房，国内访问网络速度快，用来搭梯子和建站都不错。**可以免费换IP，换IP的方法**：进入VPS管理后台，点击Manage IP’s -->点击Fix ISP Block按钮-->点击确认Confirm。
 
 如果你是新手小白或者想了解更多翻墙方法的信息，请依次往下看，尤其是关于**翻墙的安全性问题**，这个问题日趋严重，且关系到每个互联网用户的信息安全和法律风险，但是目前却少有人关注。
 
@@ -85,7 +87,7 @@
 >最近国内网络管制升级，各种翻墙方法都出现不同程度连接不稳定，速度变慢等情况，国内论坛上VPS的ip被封的讨论也多了起来，但StrongVPN和NordVPN等工具仍然处于可用状态，详细信息可参见下方[VPN推荐指南](#适合在中国使用的翻墙软件vpn国内实测)。
 
 ## 买VPS自建翻墙服务器？
-最近2年很流行租用VPS服务器自建翻墙工具，很多有点技术基础的人也在用这种方法，买了VPS服务器，下载安装脚本文件，就能翻墙了。这种方案的好处是服务器独享，仅自己一个人用，如果服务器有CN线路的话速度上也有优势，确实在刚开始我也推荐大家这样做，因为一个人独享一台服务器的资源，而且翻墙的成本也不高。但缺点就是现在IP太容易被墙了，尤其是<a rel="nofollow noopener" href="https://bandwagonhost.com/aff.php?aff=20789" target="_blank">搬瓦工</a>、<a rel="nofollow noopener" href="https://www.vultr.com/?ref=6804316" target="_blank">Vultr</a>和DO这些国内用户众多的机房，因为防火长城不断在升级，对于翻墙流量的识别越来越精准。这些流行且技术含量不高的翻墙方法对于防火长城来说只需一眼就知道你在翻墙，然后导致ip被封，由于使用翻墙的多了，厂商的IP资源是有限的，很多的vps厂商已经不支持免费换IP，即使付费换了IP也不能保证是没被墙的，换来换去结果是防火长城屏蔽的IP越来越多，几个在国内最受欢迎的vps品牌也很难找到可用的IP了，那么服务器就相当于是报废了。近1年我就陆陆续续收到一些读者留言，问买的1年的服务器用了不到2个月被墙了怎么办，有些读者是换了IP也不能用，没办法，这台VPS只能放着吃灰了。在Google上的搜索也主要是IP被墙的问题，比如搬瓦工的热门搜索如下图：
+最近2年很流行租用VPS服务器自建翻墙工具，很多有点技术基础的人也在用这种方法，买了VPS服务器，下载安装脚本文件，就能翻墙了。这种方案的好处是服务器独享，仅自己一个人用，如果服务器有CN线路的话速度上也有优势，确实在刚开始我也推荐大家这样做，因为一个人独享一台服务器的资源，而且翻墙的成本也不高。但缺点就是现在IP太容易被墙了，尤其是<a rel="nofollow noopener" href="https://linkv.org/bandwagon/" target="_blank">搬瓦工</a>、<a rel="nofollow noopener" href="https://www.vultr.com/?ref=6804316" target="_blank">Vultr</a>和DO这些国内用户众多的机房，因为防火长城不断在升级，对于翻墙流量的识别越来越精准。这些流行且技术含量不高的翻墙方法对于防火长城来说只需一眼就知道你在翻墙，然后导致ip被封，由于使用翻墙的多了，厂商的IP资源是有限的，很多的vps厂商已经不支持免费换IP，即使付费换了IP也不能保证是没被墙的，换来换去结果是防火长城屏蔽的IP越来越多，几个在国内最受欢迎的vps品牌也很难找到可用的IP了，那么服务器就相当于是报废了。近1年我就陆陆续续收到一些读者留言，问买的1年的服务器用了不到2个月被墙了怎么办，有些读者是换了IP也不能用，没办法，这台VPS只能放着吃灰了。在Google上的搜索也主要是IP被墙的问题，比如搬瓦工的热门搜索如下图：
 
 [![Google搜索搬瓦工](https://www.safewebcn.com/img/bw-google-search.png)](#买vps自建翻墙服务器)
 
@@ -181,7 +183,7 @@ StrongVPN是属于NetProtect旗下的品牌，同样也是世界排名前列的�
 
 [![Strong-device](https://www.safewebcn.com/img/strong-home.png)](#1-strongvpn--性价比最佳)
 
-这款VPN是我在19年初开始使用，总体来讲，在过去1年多的使用时间里，全年可用率能达到95%左右，服务器经常会更新，每次登陆客户端都会自动检测服务器更新。**在国内的Windows用户可以下载StrongVPN精简版，登录和连接更为顺畅**，**电脑Windows版的标准版客户端在国内的某些网络首次登录可能比较困难**。稍后放上官网Windows精简版的下载链接，或者联系客服提供中国地区使用的客户端的下载地址。手机版本（iPhone/安卓）的登录和使用直接使用App Store和Google Play下载安装即可。
+这款VPN是我在19年初开始使用，总体来讲，在过去1年多的使用时间里，全年可用率能达到95%左右，服务器经常会更新，每次登陆客户端都会自动检测服务器更新。**在国内的Windows用户可以下载StrongVPN精简版，登录和连接更为顺畅**，**电脑Windows版的标准版客户端在国内的某些网络首次登录可能比较困难**。稍后放上官网Windows精简版的下载链接，或者联系客服提供中国地区使用的客户端的下载地址。**手机版本（iPhone/安卓）的登录和使用直接使用App Store和Google Play下载安装即可**。
 
 除了最基本的VPN套餐，官网还会额外赠送250 GB SugarSync云储存套餐，赠送的服务值不值见仁见智。
 
@@ -240,6 +242,17 @@ StrongVPN Windows客户端标准版：
 StrongVPN客户端精简版（中国Windows用户推荐）：
 
 [![Strong客户端精简版](https://www.safewebcn.com/img/strongvpn-china-client-min.png)](#strongvpn如何使用)
+
+#### 使用WireGuard实现秒连
+
+StrongVPN支持WireGuard协议，以iPhone为例，先打开StrongVPN，然后点击setting，在Protocol选择WireGuard，然后回到服务器选择线路连接，点击connect，等待1-3秒就能连上，如果没有反应，打开iPhone的系统设置，点击VPN，选择“StrongVPN WireGuard Configuration”（如下图）：
+
+[![Strong WireGuard](https://www.safewebcn.com/img/strong-wireguard-min.png)](#使用wireguard实现秒连)
+
+点击按钮，一般在1s左右就能实现连接（如下图），WireGuard协议在手机翻墙时特别方便，目前大多数VPN商家还没有加入WireGuard协议，这是StrongVPN的优势之一。
+
+[![Strong WireGuard](https://www.safewebcn.com/img/strong-wireguard-2-min.png)](#使用wireguard实现秒连)
+
 
 ### Strong速度测试
 
@@ -374,7 +387,7 @@ ExpressVPN已通过普华永道对于隐私保护机制的审计 —— 就是�
 
 除了上面那些优化过的服务器线路，**中国用户也可以改为“`L2TP – IPsec`”协议使用其它的服务器线路**，但是其他那些服务器没有经过混淆算法优化，速度和稳定性可能会不如官方推荐的服务器线路，可以作为敏感时期的备用节点。
 
-关于使用和更新客户端的问题，请查看<a rel="nofollow noopener" href="https://github.com/vpncn/vpncn.github.io/issues/21" target="_blank">问题#21</a>。
+关于使用和更新客户端的问题，请查看<a rel="nofollow noopener" href="https://github.com/vpncn/vpncn.github.io/issues/21" target="_blank">问题#21</a>。关于更多ExpressVPN的信息，可以查看<a rel="noopener" href="https://www.cepingtu.com/express-vpn-review-in-china/" target="_blank">ExpressVPN在中国怎么样</a>。
 
 我们最近对官方推荐的节点进行了测试，测试的网络环境是：
 
@@ -622,7 +635,7 @@ VyprVPN在中国怎么样？这款VPN目前在中国虽然也能勉强使用，�
 **本文会根据测评情况和使用体验，定期更新排名，如果觉得内容有用的话，欢迎添加收藏。**
 
 
-## 翻墙软件VPN推荐的标准
+## <a rel="noopener" href="https://www.cepingtu.com/best-stable-vpn/" target="_blank">翻墙软件VPN推荐</a>的标准
 
 我们的VPN推荐基于这些标准，所以我们也建议大家考虑下面这些选择标准，或者参考上面的VPN排名j及我分享的最新使用信息，而不是盲目的付费购买。
 
